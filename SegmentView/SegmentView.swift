@@ -152,7 +152,7 @@ extension SegmentView: UIScrollViewDelegate {
     }
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         lastBtn?.isSelected = false
-        let curIndex: Int32 = Int32(scrollView.contentOffset.x/UIScreen.main.bounds.size.width)
+        let curIndex: Int = Int(scrollView.contentOffset.x/UIScreen.main.bounds.size.width)
         for btn in btnArr! {
             ((btn as! UIButton).tag == curIndex) ? ((btn as! UIButton).setTitleColor(selected, for: .normal)) : ((btn as! UIButton).setTitleColor(normal, for: .normal))
         }

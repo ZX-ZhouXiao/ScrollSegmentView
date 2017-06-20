@@ -35,7 +35,7 @@
 		DA3195D51EF7C28C0036D0A4 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		DA3195D81EF7C2A30036D0A4 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		DA3195D91EF7C2A30036D0A4 /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
-		DA3195DD1EF7C2E10036D0A4 /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
+		DA3195DD1EF7C2E10036D0A4 /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SegmentView.swift; path = SegmentView/SegmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -361,6 +361,7 @@
 				DA3195CE1EF7C21C0036D0A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
